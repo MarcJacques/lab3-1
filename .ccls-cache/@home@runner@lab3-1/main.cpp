@@ -1,5 +1,6 @@
 #include <iostream>
 using namespace std;
+
 int main() 
 {
   double pounds, kilograms;
@@ -9,9 +10,9 @@ int main()
   cout << "Enter weight in pounds" << endl;
   cin >> pounds;
   
-  //convert weight to kilograms
+  //convert pound to kilograms
   kilograms = pounds/CONVERSION_FACTOR;
 
-  cout << "Your weight in kilograms is " << kilograms << endl;
+  cout << "You weigh " << kilograms << " kgs" << endl;
   return 0;
 }
